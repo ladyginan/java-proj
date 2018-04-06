@@ -28,7 +28,6 @@ public class Creator {
         int ClientId = Integer.parseInt(reader.readLine());
         int DeviceId = Integer.parseInt(reader.readLine());
         int date = Integer.parseInt(reader.readLine());
-
     }
 
 }

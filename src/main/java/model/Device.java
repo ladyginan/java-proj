@@ -14,7 +14,7 @@ public class Device {
         this.deviceId = deviceId++;
     }
 
-    public int getDeviceId() {
+    public int getId() {
         return deviceId;
     }
 
