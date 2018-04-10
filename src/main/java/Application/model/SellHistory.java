@@ -1,4 +1,4 @@
-package model;
+package Application.model;
 
 public class SellHistory {
     private final int date;

@@ -1,7 +1,6 @@
-package model;
+package Application.model;
 
 import java.util.Comparator;
-import java.util.UUID;
 
 class ClientIdComparator implements Comparator<Client>{
     @Override

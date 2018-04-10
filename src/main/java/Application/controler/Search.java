@@ -1,6 +1,6 @@
-package controler;
+package Application.controler;
 
-import model.Client;
+import Application.model.Client;
 
 import java.util.ArrayList;
 import java.util.UUID;
