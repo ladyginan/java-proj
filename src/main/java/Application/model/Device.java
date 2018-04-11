@@ -1,4 +1,4 @@
-package model;
+package Application.model;
 
 public class Device {
     private final String mark;
@@ -14,7 +14,7 @@ public class Device {
         this.deviceId = deviceId++;
     }
 
-    public int getDeviceId() {
+    public int getId() {
         return deviceId;
     }
 

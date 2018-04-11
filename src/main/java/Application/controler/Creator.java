@@ -1,7 +1,7 @@
-package controler;
+package Application.controler;
 
-import model.Client;
-import model.Device;
+import Application.model.Client;
+import Application.model.Device;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -28,7 +28,6 @@ public class Creator {
         int ClientId = Integer.parseInt(reader.readLine());
         int DeviceId = Integer.parseInt(reader.readLine());
         int date = Integer.parseInt(reader.readLine());
-
     }
 
 }

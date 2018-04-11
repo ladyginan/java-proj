@@ -1,16 +1,18 @@
-package model;
+package Application.model;
+
+import java.util.UUID;
 
 public class Client {
 
     final private String name;
     final private int year;
-    private int clientId;
+    private UUID clientId;
 
 
     public Client(String name, int year) {
         this.name = name;
         this.year = year;
-        this.clientId = clientId++;
+        this.clientId = UUID.randomUUID();
     }
 
     public String getName() {
@@ -21,7 +23,7 @@ public class Client {
         return year;
     }
 
-    public int getClientId() {
+    public UUID getId() {
         return clientId;
     }
 
