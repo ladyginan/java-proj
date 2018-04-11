@@ -3,7 +3,9 @@ package Application.model;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Data {
+public class Data implements Model{
+
+    private String name;
     private List<Client> clients;
     private List<Device> devices;
     private List<SellHistory> history;
@@ -25,5 +27,11 @@ public class Data {
 
     public List<SellHistory> getHistory() {
         return history;
+    }
+
+
+    @Override
+    public void setName(String name) {
+        this.name = name;
     }
 }
